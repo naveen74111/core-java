@@ -1,0 +1,223 @@
+-------------JAVA TEST----------
+1.Explain the JRE,JDK,JVM
+
+A: JRE (java runtime environment)is the software and excecute the source code under jvm.
+   JDK (java developement kit) is the java tool it convert the source code to byte code and compile the code in command prompt.
+   JVM (java virtual machine) is contain under JRE AND JDK it perform the operation loads,fetches and excecutes the code.
+   
+2.Explain the following 
+	1.class,object,static,public,private keywords.
+A:  class: is the accessmodifiesr of the System.
+	object: instance of class.
+	static: is the local variable declaration using keyword static.
+	public: is the keyword of  accessmodifiesr used to access item.
+	private:is the keyword of  accessmodifiesr is used to indicate variable and access class declared.
+	
+	2.public static void main(String args[])
+A:	  public->accessmodifiesr
+	  static->local variable declaration keyword
+	  void -> when we go to write the function using void then not neccessary to write the return keyword for calling purpose.
+	  main->is the method Name and method name start with the lowercase suffix start with the uppercase.
+	  String->is the datatype of the system.
+	  args[] ->is the array variable declaration.
+	3.System.out.println();
+A: it will print the statements line by line.
+
+3.What is an Array.
+A: Array is Conatiner a group of elements can be Stored in a specific location of the registered area.
+
+4.Write a program given array:- number[]={45,56,67,8,12,3,5,7,9,102,34,4,5}
+	
+	1.count the number of primeNumber in the given array.
+	2.Display the Even Number with count and odd number with given array.
+	3.Display the array size
+	
+	2.Display the Even Number with count and odd number with given array.
+	A:
+	class EvenOrOdd{
+	 public static void main(String args[])
+	 {
+	 int a[]={23,45,56,67,8,12,3,5,7,9,102,34,4,5};
+	int odd=0;
+	int even=0;
+	
+	for(int i=0;i<a.length;i++)
+	{
+	if(a[i]% 2==0)
+	{
+	even++;
+	}else
+	{
+	odd++;
+	}
+	}
+	
+ System.out.println("given array");
+ for(int i=0;i<a.length;i++)
+ {
+  System.out.println(a[i]+ " ");
+ }
+	 System.out.println("count the no of even num:" +even);
+	  System.out.println("count the no of odd num:" +odd);
+}
+}
+	
+
+5.Explain the data Types in java and give example for each.
+
+A:datatypes are two types one is the user defined datatype and second is the built - in - datatypes.
+1.user defined datatypes.
+    
+    1.int : is the dataType of the Assigning the numbers of the integer values	.	
+      ex: int a=12;  //declare  variable and initialize value.  
+   2.char:is the dataType of the char Assign the values in the characters Enclosed with the Single quotes. 
+     ex: char a='isi';
+   3.long:is the dataType to store the larger numbers.	
+     ex:long a =1234567894661332144532L;
+  4.double: double dataType is the used for storing the values in the two values in Single line.   
+    ex: double a=;
+   
+   5.float:float is the datatype using (.) operater.
+   ex: float a=12.00;
+   
+   6.boolean:stores the tru or false a=true;
+		ex: a=true;
+   7.short:stores the numbers. 
+	ex short a=12;
+   
+   2.built in datatypes:String ,array ect.
+      1.String:is the dataType for the assigning the values of the words are sentences.
+      ex:String nav= "this is the string"; //declare and initialize.
+	  2.arrays class ect.
+	  
+6.What is variable? Explain its types with an Examples.
+	
+A: a variable is the container element as grouped together to perfom an operation.
+
+variable types.
+
+1.static variables.   
+2.local variables.       
+3.instance variables.
+4.parameter variables.   
+	
+7.what is constructer? when the class constructer invoked?
+will a class conatin multiple constructers?types with example.
+
+A: constructer is the special type of method same name as a className with no returntype,
+At the time of object creation,class contain multiple constructor.
+	
+	types of constructer
+	1.default constructer
+	2.parameter constructer
+	3.copy constructer
+	
+	ex:default constructer
+	class name()
+	{
+	System.out.println("default constructor is called");
+	}
+	ex:parameter constructer
+	public class name(String a,int a)
+	{
+	System.out.println("parameter constructor is called");	
+	}
+	
+8.explai java features.
+
+A:->object oriented
+->platform independent
+->robust
+->interepreted
+->security
+
+12.write a programme to given a reverse number
+
+class ReverseNum1
+{
+public static void main(String args[])
+{
+int num=1234, reversed=0;
+for(; num !=0; num/=10)
+{
+int digit=num%10;
+reversed = reversed * 10 + digit;
+}
+System.out.println("reversed num is : " + reversed);
+}
+}
+
+
+13.write a progarmme to get the factorial of given number.
+
+class Fatctorial
+{
+
+public static void main(String a[])
+{
+int n,fact=1;
+
+Scanner sc= new Scanner(System.in);
+
+System.out.println("enter the num");
+n=sc.nextInt();
+
+for(int i=1; i<n; i++)
+{
+fact=fact*i;
+}
+System.out.println("factorial of" +n+"is"+ fact);
+}
+
+}
+
+
+14. write the programme to write the sum of digits.
+A:class Sum
+{
+public static void main(String args[]){
+int num,x
+int sum =0;
+
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter the num");
+num=sc.nextInt();
+while(num >=0){
+x=num%10;
+sum=sum+x;
+num=num/10;
+}
+System.out.println("sum of digits"+ sum);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
