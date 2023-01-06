@@ -1,0 +1,140 @@
+-------------------------JAVA TEST---------------------------
+
+1.which sorted collection have tou used?
+
+A: collection.sort method using the sorted collection.
+
+2.what are some alternatives to inheritance? 
+
+A: -> is a relationship is the alternative of the inheritance.
+->	delegation is the alternative of the inheritance.
+
+3.what is the covarient method overriding?
+
+A: Only non-primitive return types can use a covariant return type, 
+   Subclass methods can override base class methods by altering the return type of the overriding method.
+   The term ‘method overloading’ refers to changing a method’s arguments.
+
+4.difference between LinkedList and ArrayList?
+
+A:		ArrayList												LinkedList
+	1.ArrayList Internally stored dynamic array			1.LinkedList Internally stored circular list
+		in the element.											array in the element.
+	2.ArrayList is using faster read operation.			2.LinkedList lower in read operation.
+	3.ArrayList is slower in write operation.			3.LinkedList faster in write operation.
+	4.this class implements and interface therefore 	4.this class both implements list interface 
+	  therefore act as a linkedlist.							therefore act as a queue.
+	
+5.difference between Listiterator and iterator in java ?
+A : 			Listiterator									
+	
+	
+	1.ListIterator can be used in List collection only. 
+	
+	2.methods of ListIterator interface are
+	add(), hasNext(), hasPrevious() and remove().
+	
+	3.ListIterator is an interface that extends 
+	the Iterator interface and we can traverse the elements 
+	in both forward and backward directions.
+	 
+	 
+				iterator
+				
+	 1.an iterator is an interface in Java						
+	and we can traverse the elements of a list 
+	in a forward direction.
+	
+	 2.The methods of Iterator interface are
+	hasNext(), next() and remove() .
+	
+	3.An Iterator can be used in these collection types like List, Set, 
+		and Queue.
+	
+6.what is memory leackage in java?
+
+A:memeory leackage is the situation when the garbage collector does not recognige the unused objects.
+and the remain in memory is indefinetly thet reduce the amount of memory allocated to the application.
+
+7.input [45,333,76,29,900,23,474,654,29,454]
+  output min->23
+		max->900
+		class Array
+		{
+		public static void main(String args[]){
+		int a[]={45,333,76,29,900,23,474,654,29,454};
+		int temp=0;
+		if(a[i]>a[j] && a.max[i])
+		{
+		for(int i=0;i<a.length; i++)
+		{
+		for(int j=i+1; j<a.length;j++)
+		{
+		temp=a[i];
+		a[i]=a[j];
+		a[j]=temp;
+		}
+		}
+		System.out.println(a.max[i]);
+		System.out.println(a[a.length-1]);		
+		}
+		}
+		}
+
+8.explain static binding and instance binding in polymorphism
+
+A: polymorphism:object behaving in given instance of time is called polymorphism
+	polymorphism two types
+	1.compiletime polymorphism - method overloading.
+	2.runtime polymorphism - method overriding.
+	
+method overloading: it means multiple methods in class is passing argument in the parameter of the method.
+
+method overriding: in the class method signature is same but difference in the implementation.
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
